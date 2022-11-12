@@ -10,10 +10,9 @@ import {
   Button,
   InputRightElement,
   Image,
-  Spacer
+  Spacer,
+  useToast
 } from '@chakra-ui/react'
-
-import { useToast } from '@chakra-ui/react'
 
 function App() {
   const [show, setShow] = React.useState(false)
